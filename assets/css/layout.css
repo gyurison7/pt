@@ -1,0 +1,7 @@
+.header { width: 100%; } 
+.header .header-inner { display: flex; justify-content: space-between; max-width: 97vw; margin: 0 auto; padding: 1.1vw 0; border-bottom: 1px solid var(--main-color); color: var(--gray-color); } 
+.header .header-inner .logo { font-size: 40px; } 
+.header .header-inner ul { display: flex; flex-direction: column; } 
+.header .header-inner ul li a { display: flex; align-items: center; gap: 5px; text-transform: uppercase; } 
+.header .header-inner ul li a::before { display: block; width: 0.555vw; height: 0.555vw; border: 1px solid currentColor; content: ''; } 
+.header .header-inner ul li a:hover { color: var(--main-color); } 
