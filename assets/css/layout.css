@@ -7,4 +7,5 @@
 .header .header-inner ul li a:hover { color: var(--main-color); } 
 
 .footer { width: 97vw; margin: 0 auto; padding-bottom: 1.1vw; } 
-.footer div { border-radius: 1.6vw; background-color: var(--main-color); font-size: 10.8vw; color: #000; text-align: center; text-transform: uppercase; } 
+.footer div { display: flex; justify-content: center; flex-wrap: wrap; gap: 1.1vw; font-size: 10.8vw; color: #000; text-align: center; text-transform: uppercase; } 
+.footer div span { display: inline-block; padding: 1.1vw 3vw; border-radius: 1.6vw; background-color: var(--main-color); } 

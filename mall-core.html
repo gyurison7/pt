@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="ko">
     <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Mall Core</title>
         <script
             src="https://code.jquery.com/jquery-3.7.1.min.js"
@@ -12,16 +12,16 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollTrigger.min.js"></script>
 
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
         <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
-        <link rel="stylesheet" href="./assets/css/common.css">
-        <link rel="stylesheet" href="./assets/css/sub.css">
+        <link rel="stylesheet" href="./assets/css/common.css" />
+        <link rel="stylesheet" href="./assets/css/sub.css" />
 
-        <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png">
-        <link rel="manifest" href="./assets/favicon/site.webmanifest">
+        <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png" />
+        <link rel="manifest" href="./assets/favicon/site.webmanifest" />
     </head>
     <body>
         <header class="header">
@@ -68,9 +68,9 @@
                                     <div class="line line3"></div>
                                 </div>
                             </div>
-                            <img src="./assets/images/icon2.svg" alt="">
+                            <img src="./assets/images/icon2.svg" alt="" />
                         </div>
-                        <div class="img-wrapper"><img src="./assets/images/arrow-white.svg" alt=""></div>
+                        <div class="img-wrapper"><img src="./assets/images/arrow-white.svg" alt="" /></div>
                     </div>
                     <p class="description dosgothic">자사 솔루션 사이트 몰코어 페이지 구축 작업</p>
                     <div class="infinite-slide">
@@ -93,7 +93,14 @@
                     <div class="top-area">
                         <h3 class="title owners">Mall-Core</h3>
                     </div>
-                    <img src="./assets/images/mall-core.png" alt="">
+                    <div class="schedule dosgothic">
+                        <ul>
+                            <li>1. 마크업 및 CSS 작업(PC) / 5일 소요</li>
+                            <li>2. 모바일 및 반응형 작업 / 2일 소요</li>
+                            <li>3. 전체 인터랙션 작업 및 디자인 확정 2개 섹션 작업 / 7일 소요</li>
+                            <li>4. 팝업 슬라이드 추가 작업, 체크리스트 점검(웹접근성, 웹호환성, SEO, 웹반응성 테스트) / 8일 소요</li>
+                        </ul>
+                    </div>
                     <div class="swiper">
                         <div class="btn-area">
                             <button class="btn-prev">
@@ -119,7 +126,8 @@
                                         <div class="line line3"></div>
                                     </div>
                                 </div>
-                                <img src="./assets/images/arrow-btn.svg" alt="">
+                                <img class="first" src="./assets/images/arrow-btn.svg" alt="">
+                                <img class="second" src="./assets/images/arrow-btn.svg" alt="">
                             </button>
                             <button class="btn-next">
                                 <div class="border-wrapper">
@@ -144,54 +152,61 @@
                                         <div class="line line3"></div>
                                     </div>
                                 </div>
-                                <img src="./assets/images/arrow-btn.svg" alt="">
+                                <img class="first" src="./assets/images/arrow-btn.svg" alt="">
+                                <img class="second" src="./assets/images/arrow-btn.svg" alt="">
                             </button>
                         </div>
                         <ul class="swiper-wrapper">
                             <li class="swiper-slide link">
                                 <a href="http://codeloft.kr/weaver_solution/mall-core.html" target="_blank">
                                     <h4 class="dosgothic">[반응형] font와 반응형 단위</h4>
-                                    <img src="./assets/images/code-font.png" alt="">
+                                    <img src="./assets/images/code-font.png" alt="" />
                                 </a>
                             </li>
                             <li class="swiper-slide link">
                                 <a href="http://codeloft.kr/weaver_solution/mall-core.html" target="_blank">
                                     <h4 class="dosgothic">[반응형] 구성도 반응형 구현</h4>
-                                    <img src="./assets/images/code-diagram.png" alt="">
+                                    <img src="./assets/images/code-diagram.png" alt="" />
                                 </a>
                             </li>
                             <li class="swiper-slide gsap-before">
                                 <h4 class="dosgothic">[인터랙션] 모바일 기기 애니메이션 오류</h4>
-                                <img src="./assets/images/code-gsap-before.png" alt="">
+                                <img src="./assets/images/code-gsap-before.png" alt="" />
                             </li>
                             <li class="swiper-slide gsap-after">
                                 <h4 class="dosgothic">[인터랙션] 코드 단순화로 애니메이션 오류 수정</h4>
-                                <img src="./assets/images/code-gsap-after.png" alt="">
+                                <img src="./assets/images/code-gsap-after.png" alt="" />
                             </li>
                             <li class="swiper-slide link">
                                 <a href="http://codeloft.kr/weaver_solution/mall-core.html" target="_blank">
                                     <h4 class="dosgothic">[인터랙션] Intersection Observer</h4>
-                                    <img src="./assets/images/code-observer.png" alt="">
+                                    <img src="./assets/images/code-observer.png" alt="" />
                                 </a>
                             </li>
                             <li class="swiper-slide scroll-before">
                                 <h4 class="dosgothic">[팝업 슬라이드 추가 작업] 스크롤 오류</h4>
-                                <img src="./assets/images/code-scroll-before.png" alt="">
+                                <img src="./assets/images/code-scroll-before.png" alt="" />
                             </li>
                             <li class="swiper-slide scroll-after">
                                 <h4 class="dosgothic">[팝업 슬라이드 추가 작업] 스크롤 오류 수정</h4>
-                                <img src="./assets/images/code-scroll-after.png" alt="">
+                                <img src="./assets/images/code-scroll-after.png" alt="" />
                             </li>
                             <li class="swiper-slide link">
                                 <a href="http://codeloft.kr/weaver_solution/mall-core.html" target="_blank">
                                     <h4 class="dosgothic">[웹접근성] 체크 리스트</h4>
-                                    <img src="./assets/images/code-web.png" alt="">
+                                    <img src="./assets/images/capture-web.png" alt="" />
+                                </a>
+                            </li>
+                            <li class="swiper-slide link">
+                                <a href="http://codeloft.kr/weaver_solution/mall-core.html" target="_blank">
+                                    <h4 class="dosgothic">[웹접근성] HTML 유효성 검사</h4>
+                                    <img src="./assets/images/capture-html.png" alt="" />
                                 </a>
                             </li>
                             <li class="swiper-slide link">
                                 <a href="http://codeloft.kr/weaver_solution/mall-core.html" target="_blank">
                                     <h4 class="dosgothic">[웹접근성] 모달 팝업 내 키보드 탭 이동</h4>
-                                    <img src="./assets/images/code-keyboard.png" alt="">
+                                    <img src="./assets/images/code-keyboard.png" alt="" />
                                 </a>
                             </li>
                         </ul>
@@ -237,7 +252,8 @@
                                         <div class="line line3"></div>
                                     </div>
                                 </div>
-                                <img src="./assets/images/arrow-black.svg" alt="">
+                                <img class="first" src="./assets/images/arrow-black.svg" alt="">
+                                <img class="second" src="./assets/images/arrow-black.svg" alt="">
                             </a>
                         </div>
                     </div>
@@ -271,7 +287,8 @@
                                         <div class="line line3"></div>
                                     </div>
                                 </div>
-                                <img src="./assets/images/arrow-black.svg" alt="">
+                                <img class="first" src="./assets/images/arrow-black.svg" alt="">
+                                <img class="second" src="./assets/images/arrow-black.svg" alt="">
                             </a>
                         </div>
                     </div>
@@ -279,9 +296,6 @@
             </section>
         </main>
 
-        <footer class="footer">
-            <div>Thank you!</div>
-        </footer>
         <script src="./assets/js/mall-core.js"></script>
     </body>
 </html>

@@ -23,6 +23,10 @@
         <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png">
         <link rel="manifest" href="./assets/favicon/site.webmanifest">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Gasoek+One&display=swap" rel="stylesheet">
     </head>
     <body>
         <header class="header">
@@ -116,7 +120,8 @@
                                         <div class="line line3"></div>
                                     </div>
                                 </div>
-                                <img src="./assets/images/arrow-btn.svg" alt="">
+                                <img class="first" src="./assets/images/arrow-btn.svg" alt="">
+                                <img class="second" src="./assets/images/arrow-btn.svg" alt="">
                             </button>
                             <button class="btn-next">
                                 <div class="border-wrapper">
@@ -141,7 +146,8 @@
                                         <div class="line line3"></div>
                                     </div>
                                 </div>
-                                <img src="./assets/images/arrow-btn.svg" alt="">
+                                <img class="first" src="./assets/images/arrow-btn.svg" alt="">
+                                <img class="second" src="./assets/images/arrow-btn.svg" alt="">
                             </button>
                         </div>
                         <ul class="swiper-wrapper">
@@ -149,6 +155,7 @@
                                 <a href="https://neopharmshop.co.kr/product/detail.html?product_no=2163" target="_blank">
                                     <h4 class="dosgothic">네오팜 샵 상품 등록</h4>
                                     <img src="./assets/images/code-neopharm.png" alt="">
+                                    <p class="description em">302<span class="gasoek-one-regular">건</span></p>
                                 </a>
                             </li>
                             <li class="swiper-slide">
@@ -195,7 +202,8 @@
                                         <div class="line line3"></div>
                                     </div>
                                 </div>
-                                <img src="./assets/images/arrow-black.svg" alt="">
+                                <img class="first" src="./assets/images/arrow-black.svg" alt="">
+                                <img class="second" src="./assets/images/arrow-black.svg" alt="">
                             </a>
                         </div>
                     </div>
@@ -229,17 +237,14 @@
                                         <div class="line line3"></div>
                                     </div>
                                 </div>
-                                <img src="./assets/images/arrow-black.svg" alt="">
+                                <img class="first" src="./assets/images/arrow-black.svg" alt="">
+                                <img class="second" src="./assets/images/arrow-black.svg" alt="">
                             </a>
                         </div>
                     </div>
                 </div>
             </section>
         </main>
-
-        <footer class="footer">
-            <div>Thank you!</div>
-        </footer>
 
         <script>
             const swiper = new Swiper(".swiper", {
